@@ -7,9 +7,6 @@ public class factorialrecursion {
             System.out.println("factorail of negative integers is not possible");
 
         }
-        else{
-            System.out.println("the factorial of "+num+"is"
-            (num));
-        }
+       
     }
 }
