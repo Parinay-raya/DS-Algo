@@ -21,6 +21,9 @@ public class onlyonce {
             if (count > 1) {
                 System.out.println(arr[i] + " appears more than once. " + count + " times.");
             }
+            else{
+                System.out.println(arr[i]+"appears only once");
+            }
         }
     }
 }

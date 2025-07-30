@@ -5,7 +5,7 @@ public class RightAligned {
         int num = 6;
         for (int i = 1; i <= num; i++) {
             // Print spaces
-            for (int j = 1; j <= num - i; j++) {
+            for (int j = num-1; j >=i; j--) {
                 System.out.print(" ");
             }
 

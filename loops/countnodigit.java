@@ -6,8 +6,8 @@ public class countnodigit {
         int num = 1234456;
 
         while (num != 0) {
-            int digit = num % 10;
-            num=num/10;
+            // int digit = num % 10;  //to remove an last element 
+            num=num/10;//remove last digit
             count++;
         }
         System.out.println(count);

@@ -17,7 +17,7 @@ public class sortedarray {
         }
 
         if (isdecreasing) {
-            System.out.println("the array elements is decreasing order" + Arrays.toString(arr));
+            System.out.println("the array elements is decreasing order" +Arrays.toString(arr));
         } else if (isincreasing) {
             System.out.println("the array elements is increasing order" + Arrays.toString(arr));
         } else{

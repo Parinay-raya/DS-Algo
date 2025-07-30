@@ -7,9 +7,9 @@ public class DigitIsPalindrome {
     int reversed=0;
     int count=0;
     while(num!=0){
-        int newnum =num%10;
-        reversed=reversed*10+newnum;
-        num=num/10;
+        int newnum =num%10;//1 add last number
+        reversed=reversed*10+newnum;//
+        num=num/10;//remove last 1234432
         count++;
         
     }if(original==reversed)

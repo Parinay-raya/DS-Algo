@@ -3,6 +3,7 @@ package string;
 public class reversestring {
     public static void main(String[] args) {
         String str="Indian";
+      
         char[] arr=str.toCharArray();
        int start=0, end = arr.length-1;
 
@@ -20,3 +21,5 @@ public class reversestring {
 
 }
 }
+
+

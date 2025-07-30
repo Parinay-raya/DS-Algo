@@ -6,7 +6,7 @@ public class palindromestring {
         int start = 0;
         int end = str.length() - 1;
         boolean ispalindrome = true;
-        for (int i = 0; i < str.length(); i++) {
+       while(start<end) {
             if (str.charAt(start)!= str.charAt(end)) {
                 ispalindrome = false;
                 break;

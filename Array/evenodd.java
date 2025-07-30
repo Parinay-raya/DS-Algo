@@ -7,10 +7,12 @@ public class evenodd {
         for(int i=0;i<arr.length;i++){
             if(arr[i]%2==0){
                 even++;
+                System.err.println(arr[i]+"is even");
 
             }
             else{
                 odd++;
+                System.out.println(arr[i]+"is odd");
             }
 
         }

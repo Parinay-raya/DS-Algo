@@ -5,7 +5,7 @@ public class evenNumbersUptoN {
         int num = 12;
 
         for (int i = 2; i <= num; i += 2) {
-            System.out.print(i + " ");
+          
         }
     }
 }
